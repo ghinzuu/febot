@@ -1,0 +1,87 @@
+Terrain :
+Fire Emblem: The Blazing Blade
+The following are notes for each type listed in the table:
+
+Foot: Lord, Blade Lord, Swordmaster, Hero, Sniper, Thief, Assassin
+Armors: Great Lord, Knight, General
+Knights A: Cavalier, Troubadour
+Knights B: Knight Lord, Paladin, Valkyrie
+Fighters: Fighter, Warrior
+Bandits: Brigand, Berserker
+Pirates: Pirate, Corsair, Berserker
+Mages: Mage, Sage, Archsage, Shaman, Druid, Dark Druid, Cleric, Monk, Bishop, Magic Seal
+Fliers: Pegasus Knight, Falcon Knight, Wyvern Rider, Wyvern Lord
+Terrain	Def	Avoid	Heal	Move Cost	Other Data
+----	0	0	0	0	Cannot cross.
+Arena	0	10	0	1	-
+Bridge	0	0	0	1	-
+Cliff	0	0	0	-	Only flying units can cross this terrain.
+Deck	0	0	0	1	-
+Desert	0	5	0	2	Move cost is 1 for Mages. Move cost is 3 for Armors, Fighters, Nomads, and Nomad Troopers. Move cost is 4 for Knights.
+Door	0	0	0	-	Cannot cross. Can be opened to form a floor.
+Fence	0	0	0	-	Only flying units can cross this terrain.
+Floor	0	0	0	1	-
+Forest	1	20	0	2	Move cost is 3 for Knights.
+Fort	2	20	20%	2	-
+Gate	2	20	10%	1	-
+House	0	10	0	1	-
+Lake	0	10	0	3	Only flying units and Pirates can cross this terrain.
+Mountain	1	30	0	4	Knights A, Nomads, and Armors cannot cross. Move cost is 3 for Fighters, Bandits, and Pirates. Move cost is 5 for Nomad Troopers. Move cost is 6 for Knights B.
+Peak	2	40	0	4	Only flying units and Bandits can cross this terrain.
+Pillar	1	20	0	2	Move cost is 3 for Knights, Nomads, and Nomad Troopers.
+Plain	0	0	0	1	-
+River	0	0	0	5	Only flying units, Foots, Bandits, and Nomad Troopers can cross this terrain. Move cost is 2 for Pirates.
+Road	0	0	0	1	-
+Ruins	0	10	0	1	-
+Ruins (Village)	0	0	0	2	-
+Sand	0	5	0	1	-
+Sea	0	10	0	2	Only flying units and Pirates can cross this terrain.
+Shop	0	10	0	1	-
+Snag	0	0	0	-	Only flying units can cross this terrain. Can be attacked to form a Bridge.
+Stairs	0	0	0	1	-
+Throne	2	20	10%	1	Restores conditions. Resistance +5.
+Village	0	10	0	1	-
+Wall	0	0	0	-	Cannot cross.
+Wall (Weak)	0	0	0	-	Cannot cross. Can attack to form a Floor.
+Fire Emblem: The Sacred Stones
+The following are notes on the different types mentioned in the following table:
+
+Foot: Lord, Hero, Swordmaster, Sniper, Thief, Assassin, Rogue
+Armors: Knight, General
+Knights A: Cavalier, Troubadour
+Knights B: Great Lord, Paladin, Mage Knight, Great Knight, Valkyrie
+Horses A: Mauthedoog, Tarvos
+Horses B: Ranger, Gwyllgi, Maelduin
+Bandits: Brigand, Berserker, Bael, Elder Bael
+Pirates: Pirate, Corsair, Berserker, Fleet
+Fighters: Journeyman, Fighter, Warrior, Cyclops
+Mages: Pupil, Mage, Sage, Shaman, Druid, Summoner, Cleric, Priest, Monk, Bishop, Necromancer, Gorgon
+Fliers: Pegasus Knight, Falcon Knight, Wyvern Rider, Wyvern Lord, Wyvern Knight, Phantom, Mogall, Arch Mogall, Gargoyle, Deathgoyle, Manakete, Dracozombie
+Terrain	Def	Avoid	Heal	Move Cost	Other Data
+----	0	0	0	-	Cannot cross.
+Bridge	0	0	0	1	-
+Cliff	0	0	0	-	Only flying units can cross this terrain.
+Desert	0	5	0	2	Move cost is 1 for Mages. Move cost is 3 for Armors, Fighters, and Horses. 4 for Knights.
+Door	0	0	0	-	Cannot cross. Can be opened to form a Floor.
+Fence	0	0	0	-	Only flying units can cross this terrain.
+Floor	0	0	0	1	-
+Forest	1	20	0	2	Move cost is 3 for Knights.
+Fort	2	20	20%	2	-
+Gate	3	30	10%	1	-
+Gate (Castle)	3	20	10%	1	Restores conditions.
+House	0	10	0	1	-
+Lake	0	10	0	3	Only flying units and Pirates can cross this terrain.
+Mountain	1	30	0	4	Armors, Knights A, and Horses A cannot cross this terrain. Move cost is 3 for Fighters, Bandits, and Pirates. Move cost is 5 for Horses B. Move cost is 6 for Knights B.
+Peak	2	40	0	4	Only flying units and Bandits can cross this terrain.
+Pillar	1	20	0	2	Move cost is 3 for Knights and Horses.
+Plain	0	0	0	1	-
+River	0	0	0	5	Only Foot, Bandits, and Horses B can cross this terrain. Move cost is 2 for Pirates.
+Ruins	0	0	0	2	-
+Sand	0	5	0	1	-
+Sea	0	10	0	2	Only flying units and Pirates can cross this terrain.
+Snag	0	0	0	-	Cannot cross. Can be attacked to form a Bridge.
+Stairs	0	0	0	1	-
+Throne	3	30	10%	1	Restores conditions. Resistance +5
+Wall	0	0	0	-	Cannot cross.
+Wall (weak)	0	0	0	-	Cannot cross. Can be attacked to form a Floor.
+Village	0	10	0	1	-
